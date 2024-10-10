@@ -20787,15 +20787,18 @@ MonoBehaviour:
   enemyPrefabs:
   - {fileID: 7726416930383346753, guid: 3e1c79a77ef03ca4597eacc99ee3a185, type: 3}
   - {fileID: 7726416930383346753, guid: 3e1c79a77ef03ca4597eacc99ee3a185, type: 3}
+  - {fileID: 7726416930383346753, guid: 3e1c79a77ef03ca4597eacc99ee3a185, type: 3}
   - {fileID: 5801507251833887821, guid: 032458a8d9579834e8d05741126b1729, type: 3}
   - {fileID: 5801507251833887821, guid: 032458a8d9579834e8d05741126b1729, type: 3}
-  - {fileID: 5801507251833887821, guid: 032458a8d9579834e8d05741126b1729, type: 3}
+  - {fileID: 5335875000318134563, guid: e1110ec6b6d07254790c10f7296117ab, type: 3}
+  - {fileID: 5335875000318134563, guid: e1110ec6b6d07254790c10f7296117ab, type: 3}
+  - {fileID: 7507414297668982327, guid: 4b603dd31a67fe64693fffc1baa4a8c6, type: 3}
   waveBossPrefabs:
   - {fileID: 1038540446868549380, guid: 78a22451139563b49b8dbaeb973dcc60, type: 3}
   startButton: {fileID: 550648395}
   infoScreen: {fileID: 874183825}
   baseEnemies: 8
-  bossBaseEnemies: 2
+  bossBaseEnemies: 1
   enemiesPerSecond: 0.5
   timeBetweenWaves: 5
   difficultyScalingFactor: 0.75

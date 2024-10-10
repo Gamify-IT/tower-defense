@@ -382,8 +382,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 2
-  currencyWorth: 0
-  damagePoints: 0
+  currencyWorth: 10
+  damagePoints: 1
 --- !u!114 &5159218363940661615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -397,7 +397,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 2
-  currencyWorth: 50
+  currencyWorth: 10
   lifebarFill: {fileID: 2372872438287355076}
   enemyKillSound: {fileID: 8300000, guid: 347edeebb429b1849a2a69eb7278cb11, type: 3}
 --- !u!1 &7770921734152303827

@@ -391,9 +391,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37c5b35411da11e4a80e24461ab610fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 2
-  currencyWorth: 0
-  damagePoints: 0
+  hitPoints: 6
+  currencyWorth: 20
+  damagePoints: 3
 --- !u!114 &1765555163245100967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -406,8 +406,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac8f3ea19c9dd34d8cdbc9f6bac1fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 4
-  currencyWorth: 100
+  hitPoints: 6
+  currencyWorth: 20
   lifebarFill: {fileID: 8095696213052390795}
   enemyKillSound: {fileID: 8300000, guid: 347edeebb429b1849a2a69eb7278cb11, type: 3}
 --- !u!1 &5897638295334165491

@@ -176,7 +176,7 @@ MonoBehaviour:
   targetingRange: 2
   projectilePerSecond: 1
   baseUpgradeCost: 100
-  towerHP: 30
+  towerHP: 100
   towerAnimator: {fileID: 1553289854802080280}
 --- !u!1001 &6796277414155048270
 PrefabInstance:

@@ -10,7 +10,7 @@ public class ChickenBoss : EnemyMovement
     [Header("Shooting Attributes")]
     [SerializeField] private GameObject Projectile;
     [SerializeField] private float targetingRange = 3f;
-    [SerializeField] private float projectilePerSecond = 5f; 
+    [SerializeField] private float shotCooldown = 5f; 
     [SerializeField] private Transform firingPoint; 
 
     private BaseTower currentTargetTower; 
@@ -26,7 +26,7 @@ public class ChickenBoss : EnemyMovement
         }
         if (CheckTargetIsInRange())
         {
-            if (Time.time - timeUntilFire >= projectilePerSecond)
+            if (Time.time - timeUntilFire >= shotCooldown)
             {
                 ShootAtTower();
                 timeUntilFire = Time.time;

@@ -268,6 +268,7 @@ GameObject:
   - component: {fileID: 2440630901217558677}
   - component: {fileID: 1638235952944570044}
   - component: {fileID: 8270895408273478256}
+  - component: {fileID: 7114957226935173064}
   m_Layer: 8
   m_Name: Kitty
   m_TagString: Enemy
@@ -376,8 +377,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac8f3ea19c9dd34d8cdbc9f6bac1fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 2
-  currencyWorth: 0
+  hitPoints: 10
+  currencyWorth: 20
   lifebarFill: {fileID: 5211246079010515424}
   enemyKillSound: {fileID: 8300000, guid: 347edeebb429b1849a2a69eb7278cb11, type: 3}
 --- !u!114 &2440630901217558677
@@ -472,3 +473,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.75}
   m_EdgeRadius: 0
+--- !u!114 &7114957226935173064
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7507414297668982327}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37c5b35411da11e4a80e24461ab610fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hitPoints: 10
+  currencyWorth: 20
+  damagePoints: 5

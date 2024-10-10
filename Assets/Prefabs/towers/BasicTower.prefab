@@ -421,7 +421,7 @@ Transform:
   m_GameObject: {fileID: 3688534336432495400}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalPosition: {x: 0, y: 0, z: -2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1133,10 +1133,10 @@ MonoBehaviour:
   upgradeButton: {fileID: 5593371526817612592}
   levelLabel: {fileID: 3137572798464951846}
   upgradePriceLabel: {fileID: 7964803794669663065}
-  targetingRange: 5
-  projectilePerSecond: 1
+  targetingRange: 4
+  projectilePerSecond: 0.8
   baseUpgradeCost: 100
-  towerHP: 10
+  towerHP: 100
   archerRotationPoint: {fileID: 3447725394379227558}
   arrowUp: {fileID: 7399705854564891151, guid: 91d2dec388e21a94ba18f22909b46987, type: 3}
   arrowDown: {fileID: 7399705854564891151, guid: 64be1383e14a79c4ba28eac3cde8d5a8, type: 3}

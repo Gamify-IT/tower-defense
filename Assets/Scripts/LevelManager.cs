@@ -31,9 +31,9 @@ public class LevelManager : MonoBehaviour
     private void Start()
     {
 #if UNITY_EDITOR
-        currency = 10000;
+        currency = 250;
 #else
-        currency = 100;
+        currency = 250;
 #endif
     }
 

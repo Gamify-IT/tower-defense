@@ -1025,7 +1025,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 300
+  m_text: 200
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef88391de693dac40b04131e08f38882, type: 2}
   m_sharedMaterial: {fileID: -8391701417571377768, guid: ef88391de693dac40b04131e08f38882, type: 2}
@@ -1762,7 +1762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 500
+  m_text: 300
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef88391de693dac40b04131e08f38882, type: 2}
   m_sharedMaterial: {fileID: -8391701417571377768, guid: ef88391de693dac40b04131e08f38882, type: 2}
@@ -4718,13 +4718,13 @@ MonoBehaviour:
     costs: 100
     prefab: {fileID: 8554871503429272918, guid: 96c924f736354d640a1a7d9b8b83cf85, type: 3}
   - name: Slow
-    costs: 200
+    costs: 100
     prefab: {fileID: 2659251342497324039, guid: d71fe1a2e69ab35419313f52374d0b3a, type: 3}
   - name: Defense
-    costs: 300
+    costs: 200
     prefab: {fileID: 4901877253959746888, guid: e97d30da1bb40114eb4078cd974991d2, type: 3}
   - name: Sniper
-    costs: 500
+    costs: 300
     prefab: {fileID: 8314970720318852114, guid: bf6265ec8193d7a48b18ba3b8feecb99, type: 3}
   defenseTowerPrefabUp: {fileID: 6338859467842669082, guid: b3ec5bd4dd6e23f458c6c56872cd8fec, type: 3}
   defenseTowerPrefabDown: {fileID: 4901877253959746888, guid: e97d30da1bb40114eb4078cd974991d2, type: 3}
@@ -5260,7 +5260,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 200
+  m_text: 100
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ef88391de693dac40b04131e08f38882, type: 2}
   m_sharedMaterial: {fileID: -8391701417571377768, guid: ef88391de693dac40b04131e08f38882, type: 2}

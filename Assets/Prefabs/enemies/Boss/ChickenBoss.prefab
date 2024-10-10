@@ -166,9 +166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37c5b35411da11e4a80e24461ab610fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 5000
-  currencyWorth: 0
-  damagePoints: 5000
+  hitPoints: 50
+  currencyWorth: 100
+  damagePoints: 10
 --- !u!114 &7239314431919059718
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,7 +184,7 @@ MonoBehaviour:
   rb: {fileID: 6385310722615514770}
   playerHP: {fileID: 0}
   animator: {fileID: -8453940689066954149}
-  moveSpeed: 2
+  moveSpeed: 1
   isVisible: 1
   Projectile: {fileID: 1599233798482917605, guid: 2c6c7aba0d98b33429843729eb0da08e, type: 3}
   targetingRange: 3
@@ -223,8 +223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aac8f3ea19c9dd34d8cdbc9f6bac1fa6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hitPoints: 1000
-  currencyWorth: 0
+  hitPoints: 50
+  currencyWorth: 100
   lifebarFill: {fileID: 9167058890520206046}
   enemyKillSound: {fileID: 8300000, guid: 347edeebb429b1849a2a69eb7278cb11, type: 3}
 --- !u!1 &3106439602607495266

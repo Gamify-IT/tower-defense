@@ -17,7 +17,7 @@ public class EnemySpawner : MonoBehaviour
 
     [Header("Attributes")]
     [SerializeField] private int baseEnemies = 8;
-    [SerializeField] private int bossBaseEnemies = 1;
+    [SerializeField] private float bossBaseEnemies = 0.5f;
     [SerializeField] private float enemiesPerSecond = 0.5f;
     [SerializeField] private float timeBetweenWaves = 5f;
     [SerializeField] private float difficultyScalingFactor = 0.75f;
@@ -117,6 +117,13 @@ public class EnemySpawner : MonoBehaviour
     private void SpawnEnemy()
     {
         int index = Random.Range(0, enemyPrefabs.Length);
+
+        // spawn kitties only after wave 3
+        if (index == enemyPrefabs.Length - 1 && currentWave < 4)
+        {
+            index = 0;
+        }
+
         GameObject prefabToSpawn = enemyPrefabs[index];
         Instantiate(prefabToSpawn, LevelManager.Instance.GetStartPoint().position, Quaternion.identity );
         
@@ -129,9 +136,7 @@ public class EnemySpawner : MonoBehaviour
     {
         int index = Random.Range(0, waveBossPrefabs.Length);
         GameObject prefabToSpawn = waveBossPrefabs[index];
-        Instantiate(prefabToSpawn, LevelManager.Instance.GetStartPoint().position, Quaternion.identity);
-        
-       
+        Instantiate(prefabToSpawn, LevelManager.Instance.GetStartPoint().position, Quaternion.identity);       
     }
 
     /// <summary>
@@ -144,9 +149,7 @@ public class EnemySpawner : MonoBehaviour
         {
             SpawnBoss();
             bossesLeftToSpawn--;
-
-            
-            
+                    
             yield return new WaitForSeconds(2f);
         }
     }
@@ -179,7 +182,7 @@ public class EnemySpawner : MonoBehaviour
         isSpawning = false;
         timeSinceLastSpawn = 0f;
         Debug.Log(currentWave);
-        if (currentWave % 2 == 0 && bossesLeftToSpawn > 0)
+        if (currentWave % 5 == 0 && bossesLeftToSpawn > 0)
         {
             Debug.Log("spawned boss");
            

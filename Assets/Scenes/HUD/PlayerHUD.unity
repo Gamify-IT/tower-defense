@@ -132,7 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 230577579}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Feedback Window
   m_TagString: Alert Window
   m_Icon: {fileID: 0}
@@ -170,7 +170,7 @@ GameObject:
   - component: {fileID: 307327152}
   - component: {fileID: 307327154}
   - component: {fileID: 307327153}
-  m_Layer: 5
+  m_Layer: 0
   m_Name: Feedback Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -225,8 +225,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278191871
-  m_fontColor: {r: 1, g: 0.024154592, b: 0, a: 1}
+    rgba: 4294917949
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

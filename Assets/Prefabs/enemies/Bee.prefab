@@ -328,7 +328,7 @@ MonoBehaviour:
   rb: {fileID: 2160243520276448300}
   playerHP: {fileID: 0}
   animator: {fileID: 4906703736370525537}
-  moveSpeed: 2
+  moveSpeed: 3
   isVisible: 1
 --- !u!114 &1791665646557957979
 MonoBehaviour:
@@ -343,7 +343,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 2
-  currencyWorth: 0
+  currencyWorth: 15
   lifebarFill: {fileID: 5258351899913264929}
   enemyKillSound: {fileID: 8300000, guid: 347edeebb429b1849a2a69eb7278cb11, type: 3}
 --- !u!95 &4906703736370525537
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 2
-  currencyWorth: 0
-  damagePoints: 0
+  currencyWorth: 15
+  damagePoints: 2
 --- !u!1 &9142074282566807040
 GameObject:
   m_ObjectHideFlags: 0
